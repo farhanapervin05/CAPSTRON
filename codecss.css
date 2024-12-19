@@ -157,8 +157,6 @@ ul li{
   font-family: Archivo;
 }
 
-
-
        
 .footer {
   border-top: 1px solid #000000;
@@ -276,7 +274,13 @@ ul li{
         
     }
 
- 
+.head1{
+  font-family: DotGothic16;
+  text-align: center ;
+  font-size: 56px;
+  font-weight: lighter;
+}
+
 @media only screen and (max-width: 768px){
   /* body{
     margin: 0;
@@ -318,5 +322,67 @@ ul li{
   #container2-content{
     padding: 30px 52px;
   }
+  .parent1, .parent2, .parent3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: auto;
+  }
+  .child img{
+    height: 90%;
+    width: 100%;
+  }
+  .child{
+    padding: 5px;
+  }
+  #container3{
+    padding: 0;
+    margin: 5px;
+  }
+  .parent4{
+    font-size: medium ;
+  }
+  .parent5{
+    font-size: small;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
   
+  }
+  .project-card{
+    padding: 2px;
+    margin-bottom: 5px;
+  }
+  .project-title{
+    font-size: medium;
+  }
+  .project-description{
+    font-size: small;
+  }
+  
+  .head1{
+    padding-top: 20px;
+    font-size: 32px;
+  }
+  .testimonial-container{
+    flex-direction: column;
+  }
+  .profile-info{
+    font-size: medium;
+  }
+  .testimonial-text{
+    font-size: large;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footer p{
+    font-size: medium;
+    padding: 2px;
+  }
+  .contact-btn{
+    font-size: small;
+    margin-right: 2px;
+  }
 }
