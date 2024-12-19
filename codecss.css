@@ -382,7 +382,42 @@ ul li{
     padding: 2px;
   }
   .contact-btn{
-    font-size: small;
+    font-size: medium;
     margin-right: 2px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  #main-content{
+    font-size: 72px;
+  }
+  #main-image{
+    height: 98%;
+    width: 98%;
+    margin: 0 11px;
+    object-fit:contain ;
+  }
+  #container2-content p{
+    font-size: 42px;
+    line-height: 40px;
+  }
+  #container2-content{
+    padding: 105px;
+  }
+  .parent1, .parent2, .parent3{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .parent2{
+    align-items: flex-end;
+  }
+  .gallery-container{
+    padding: 10px;
+  }
+  .testimonial-container{
+    padding-right: 36px;
   }
 }
